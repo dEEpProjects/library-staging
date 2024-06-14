@@ -1,0 +1,123 @@
+#ranking-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  background-color: #fff;
+}
+.ranking-wrapper {
+  -webkit-box-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+.ranking-table-wrapper {
+  -webkit-box-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  padding: 0.25em;
+  overflow-y: auto;
+}
+.ranking-table {
+  width: 100%;
+  table-layout: fixed;
+  border-collapse: collapse;
+}
+.ranking-table th {
+  font-size: 1.058rem;
+  text-align: left;
+  padding: 0 0.5em;
+  background-color: #e7e7e7;
+  color: #28363e;
+  border-radius: 0 0.2em 0.2em 0;
+}
+.ranking-table th:first-child {
+  font-size: 1rem;
+  border-radius: 0.2em 0 0 0.2em;
+}
+.ranking-table tr {
+  border-bottom: 1px solid #e7e7e7;
+  height: 40px;
+}
+.ranking-table thead tr {
+  border-bottom: none;
+}
+.ranking-table td,
+th {
+  /* max-width: 0; */
+  padding: 0 0.25em;
+}
+.ranking-table td:not(:first-child),
+th:not(:first-child) {
+  text-align: center;
+  width: 40px;
+}
+.ranking-table td {
+  overflow: hidden;
+  -o-text-overflow: ellipsis;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.ranking-table td {
+  font-size: 0.941rem;
+}
+.ranking-table td a {
+  font-size: 0.852rem;
+  color: inherit;
+  text-decoration: none;
+  display: inline!important;
+}
+.ranking-table td:first-child span {
+  font-size: 0.852rem;
+}
+.ranking-table td a:hover {
+  text-decoration: underline;
+}
+.ranking-switch {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  height: 45px;
+}
+.ranking-note {
+  padding: 0.5em;
+  text-align: center;
+  font-size: 0.794rem;
+  font-style: italic;
+}
+.ranking-empty,
+.ranking-loading {
+  font-style: italic;
+  text-align: center;
+}
+.current-label {
+  font-size: 0.852rem;
+}
+.current-row {
+  border-top: 5px solid #e7e7e7;
+}
+.flip-list-move {
+  -webkit-transition: -webkit-transform 0.5s;
+  transition: -webkit-transform 0.5s;
+  -o-transition: transform 0.5s;
+  transition: transform 0.5s;
+  transition: transform 0.5s, -webkit-transform 0.5s;
+}
+
