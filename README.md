@@ -11,6 +11,6 @@ You can place this line anywhere on your page, but it’s usually inserted befor
 Congratulations! That’s all there is to it. As soon as you add the code to your pages, Now4real starts working, and you will see the blue Now4real widget in the bottom-left corner of your pages.
 
 
-<img src="./quickstart-wc-blue.png" alt="Now4real widget bubble" width="100" />
+<img src="./widget-bubble.png" alt="Now4real widget bubble" width="100" />
 
 For more detailed instructions and additional information, please visit the [Now4real script tutorial](https://now4real.com/script-tutorial/).
